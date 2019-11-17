@@ -1,0 +1,36 @@
+{
+  "name": "patxi",
+  "version": "1.0.0",
+  "lockfileVersion": 1,
+  "requires": true,
+  "description": "An app to learn how a CLI works",
+  "main": "src/index.js",
+  "module": "src/main.js",
+  "bin": {
+    "@your_npm_username/cli-project": "bin/cli-project",
+    "cli-project": "bin/cli-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "cli-project"
+  ],
+  "author": "Francisco Vergara",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.1",
+    "chalk": "^3.0.0",
+    "esm": "^3.2.18",
+    "execa": "^3.3.0",
+    "inquirer": "^7.0.0",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  },
+  "devDependencies": {}
+}
