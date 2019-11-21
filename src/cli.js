@@ -1,6 +1,8 @@
-import arg from 'arg';   // To parse our cli arguments
-import inquirer from 'inquirer';
+
 import { cliProject } from './main';
+
+const arg = require('arg'); // To parse our cli arguments
+const inquirer = require('inquirer');
 
 function parseArgumentsIntoOptions(rawArgs) {
   const args = arg(
