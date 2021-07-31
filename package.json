@@ -25,6 +25,7 @@
   "dependencies": {
     "arg": "^4.1.1",
     "chalk": "^3.0.0",
+    "lodash": ">=4.17.21",
     "esm": "^3.2.18",
     "execa": "^3.3.0",
     "inquirer": "^7.0.0",
